@@ -82,12 +82,13 @@ class CashRegister {
         
         total_tax = register1.get_total_tax();
 
-        cout << "Total: " << register1.get_total() + total_tax << "¢" << endl;
-        cout << "Total tax: " << register1.get_total_tax()  << "¢" << endl;
-        cout << "Number of items: " << register1.get_count() << endl;
-
-
         register1.display_all();
+
+
+        cout << "Number of items: " << register1.get_count() << endl;
+        cout << "Total tax: " << register1.get_total_tax()  << "¢" << endl;
+        cout << "Total: " << register1.get_total() + total_tax << "¢" << endl;
+
 
     return 0;
  }
