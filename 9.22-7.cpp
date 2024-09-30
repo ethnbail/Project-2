@@ -37,7 +37,7 @@ class CashRegister {
             cout << "Prices in cents of all the items currently in the sale: " << endl; 
             for (int cent : cents) {
                 cout << cent << "¢"<< endl; 
-               
+
             }
         }
     };
@@ -54,10 +54,13 @@ class CashRegister {
         register1.add_item(55.99);
         register1.add_item(14.60);    
 
-        cout << "Total cents: " << register1.get_total() << endl; 
-        cout << "Number of items: " << register1.get_count() << endl;
-
         register1.display_all();
+
+        cout << "Number of items: " << register1.get_count() << endl;
+        
+        cout << "Total cents: " << register1.get_total() << endl; 
+
+
 
     return 0;
  }
