@@ -56,7 +56,7 @@
 
     cout << fixed << setprecision(2); // since its money it should display both decismal places
     cout << "Total: $" << register1.get_total() << endl;
-    cout << "Number of items: " << register1.get_count(); << endl;
+    cout << "Number of items: " << register1.get_count() << endl;
 
     register1.display_all();
 
