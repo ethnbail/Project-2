@@ -101,16 +101,16 @@ class CashRegister {
         register1.add_item(14.60);    
 
         total_tax = register1.get_total_tax();
-
-       cout << "Total: " << register1.get_total() + total_tax << "¢" << endl;
-        cout << "Total tax: " << register1.get_total_tax()  << "¢" << endl;
-        cout << "Number of items: " << register1.get_count() << endl; // displays the number of items
-
-
+        
         register1.display_all(); // display the current sale
+        cout << endl;
+        cout << "Number of items: " << register1.get_count() << endl;
+        cout << "Total tax: " << register1.get_total_tax()  << "¢" << endl;
+        cout << "Total: " << register1.get_total() + total_tax << "¢" << endl;
 
-        cout << "Total sales today: " << register1.get_sales_total() + total_tax << "¢" << endl; // displays the total sales
         cout << "Total number of sales today: " << register1.get_sales_count() << endl; // display the sales count for thew day
+        cout << "Total sales today: " << register1.get_sales_total() + total_tax << "¢" << endl; // displays the total sales
+
 
         register1.reset_sales(); // resets the daily sales for the next day
 
