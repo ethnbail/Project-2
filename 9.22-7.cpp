@@ -55,7 +55,7 @@ class CashRegister {
         register1.add_item(14.60);    
 
         register1.display_all();
-
+        cout << endl;
         cout << "Number of items: " << register1.get_count() << endl;
         
         cout << "Total cents: " << register1.get_total() << endl; 
