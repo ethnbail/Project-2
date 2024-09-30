@@ -84,7 +84,7 @@ class CashRegister {
 
         register1.display_all();
 
-
+        cout << endl;
         cout << "Number of items: " << register1.get_count() << endl;
         cout << "Total tax: " << register1.get_total_tax()  << "¢" << endl;
         cout << "Total: " << register1.get_total() + total_tax << "¢" << endl;
